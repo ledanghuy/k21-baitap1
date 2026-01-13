@@ -1,0 +1,7 @@
+# 02-cacvung-git.txt: 
+- **Step a: Tạo 3 file : file 1, file2, file3**: 3 file ở trong vùng Working Directory.
+- **Step b: git init**: 3 file ở trong vùng Working Directory (chỉ tạo ra thư mục git).
+- **Step c: git commit -m”init project”**:  3 file vẫn ở vùng Working Directory.
+- **Step d: git add file1**: file 1 ở trong vùng Staging Area, còn 2 file còn lại ( file2, file3) vẫn ở trong vùng Working Directory.
+- **Step e: git commit -m”add file1”**: file 1 sẽ được thêm vào vùng Repository còn 2 file còn lại ( file 2, file 3)vẫn ở trong vùng Working Directory. Còn vùng Staging Area trống.
+- **Step f: git commit -m”add file”**: File 1 : Repository , file 2, file 3 thì ở vùng Working Directory.

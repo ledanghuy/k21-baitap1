@@ -2,12 +2,12 @@
 - git init : Lệnh dùng để khởi tạo 1 repository mới trong Git.
 - git add <file_name> : Lệnh dùng để đưa file từ vùng Working Directory vào trong vùng Staging Area.
 - git add . : Lệnh dùng để đưa toàn bộ tất cả các file ( file mới lẫn file thay đổi  ) từ vùng Working Directory vào trong vùng Staging Area. 
-- git commit -m “message” : Lệnh này dùng để chuyển các file từ vùng Staging Area lên Repository của Github kèm theo tin nhắn mô tả. (như ***chore*** :sửa nhỏ lẻ.., ***feat*** : thêm tính năng hoặc test case mới, ***fix*** : sửa lỗi 1 test trước đó).
+- git commit -m “message” : Lệnh này dùng để chuyển các file từ vùng Staging Area lên Repository kèm theo tin nhắn mô tả. (như ***chore*** :sửa nhỏ lẻ.., ***feat*** : thêm tính năng hoặc test case mới, ***fix*** : sửa lỗi 1 test trước đó).
 
 # 02-cacvung-git.txt: 
-- **Step a: Tạo 3 file : file 1, file2, file3**: Ba file này sẽ nằm trong vùng Working Directory.
-- **Step b: git init**: khởi tạo 1 repository mới trong Git. 
-- **Step c: git commit -m”init project”**: Hiển thị thông báo lỗi :Không có gì file nào được thêm vào commit.
-- **Step d: git add file1**: Chuyển file 1 từ Working Directory sang bên Staging Area.
-- **Step e: git commit -m”add file1”**: file 1 sẽ được chuyển từ vùng Staging Area sang vùng Repository.
-- **Step f: git commit -m”add file”**: Hiển thị thông báo lỗi :Không có gì file nào được thêm vào commit.
+- **Step a: Tạo 3 file : file 1, file2, file3**: 3 file ở trong vùng Working Directory.
+- **Step b: git init**: 3 file ở trong vùng Working Directory (chỉ tạo ra thư mục git).
+- **Step c: git commit -m”init project”**:  3 file vẫn ở vùng Working Directory.
+- **Step d: git add file1**: file 1 ở trong vùng Staging Area, còn 2 file còn lại ( file2, file3) vẫn ở trong vùng Working Directory.
+- **Step e: git commit -m”add file1”**: file 1 sẽ được thêm vào vùng Repository còn 2 file còn lại ( file 2, file 3)vẫn ở trong vùng Working Directory. Còn vùng Staging Area trống.
+- **Step f: git commit -m”add file”**: File 1 : Repository , file 2, file 3 thì ở vùng Working Directory.

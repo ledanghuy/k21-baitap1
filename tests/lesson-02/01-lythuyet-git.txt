@@ -1,0 +1,5 @@
+# 01-lythuyet-git.txt:
+- git init : Lệnh dùng để khởi tạo 1 repository mới trong Git.
+- git add <file_name> : Lệnh dùng để đưa file từ vùng Working Directory vào trong vùng Staging Area.
+- git add . : Lệnh dùng để đưa toàn bộ tất cả các file ( file mới lẫn file thay đổi  ) từ vùng Working Directory vào trong vùng Staging Area. 
+- git commit -m “message” : Lệnh này dùng để chuyển các file từ vùng Staging Area lên Repository kèm theo tin nhắn mô tả. (như ***chore*** :sửa nhỏ lẻ.., ***feat*** : thêm tính năng hoặc test case mới, ***fix*** : sửa lỗi 1 test trước đó).
