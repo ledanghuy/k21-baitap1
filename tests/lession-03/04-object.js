@@ -58,6 +58,7 @@ const bike =
 
 }
 bike.color = "red";
+console.log(bike);
 console.log("======================================================================");
 console.log("Cau so 6 ");
 

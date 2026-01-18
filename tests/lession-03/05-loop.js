@@ -10,8 +10,10 @@ console.log("===================================================================
 console.log("Cau so 2 ");
 
 for (let i = 2; i <= 9; i++) {
+
+    console.log("Bảng cửu chương " + [i]);
     for (let j = 1; j <= 10; j++) {
-        console.log(i * j);
+        console.log([i] + "*" + [j] + "=" + i * j);
     }
 }
 
@@ -38,7 +40,7 @@ for (let i = 1; i <= 10; i++) {
 console.log("======================================================================");
 console.log("Cau so 5 ");
 
-let tongdoanhthu =0;
+let tongdoanhthu = 0;
 const mangdoanhthu =
     [
         { month: 1, total: 1 },
@@ -55,8 +57,7 @@ const mangdoanhthu =
         { month: 12, total: 12 }
     ];
 
-for (let i=0;i<mangdoanhthu.length;i++)
-{
-    tongdoanhthu=tongdoanhthu + mangdoanhthu[i].total;
+for (let i = 0; i < mangdoanhthu.length; i++) {
+    tongdoanhthu = tongdoanhthu + mangdoanhthu[i].total;
 }
 console.log(tongdoanhthu);

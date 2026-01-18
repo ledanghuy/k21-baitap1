@@ -20,7 +20,7 @@ function findMin(a, b, c) {
     return min;
 
 };
-const boso1 = findMin(1, 2, 3);
+const boso1 = findMin(10, 5, 3);
 console.log(boso1);
 const boso2 = findMin(4, 5, 6);
 console.log(boso2);
@@ -32,13 +32,13 @@ console.log("Cau so 3 ");
 const students =
     [
         { name: "Huy", score: 1 },
-        { name: "A", score: 3 },
-        { name: "B", score: 4 },
-        { name: "C", score: 8 },
-        { name: "D", score: 7 },
-        { name: "E", score: 9 },
-        { name: "F", score: 2 },
-        { name: "G", score: 10 }
+        { name: "AN", score: 3 },
+        { name: "Bình", score: 4 },
+        { name: "Cường", score: 8 },
+        { name: "Dũng", score: 7 },
+        { name: "Hòa", score: 9 },
+        { name: "Phong", score: 2 },
+        { name: "Giang", score: 10 }
 
     ];
 threshold = 5;
@@ -48,7 +48,7 @@ function getTopStudents(students, threshold) {
     const newarr = [];
     for (let i = 0; i < students.length; i++) {
         if (students[i].score >= threshold) {
-            newarr.push(students[i]);
+            newarr.push(students[i].name);
 
         }
     }
@@ -65,7 +65,7 @@ console.log("Cau so 4");
 
 function calculateInterest(principal, rate, years) {
 
-    let total = principal + principal * rate * years / 100.
+    let total = principal + principal * rate * years / 100;
     return total;
 
 };
