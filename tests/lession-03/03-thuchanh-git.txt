@@ -1,0 +1,26 @@
+A: Chạy lệnh git init:
+    - Working Directory: không có file nào.
+   - Staging: không có file nào.
+   - Repository: không có file nào.
+
+B: Tạo file file1.txt, file2.txt, oops/file3.txt.
+   - Working Directory: file1, file2,file3.
+   - Staging: không có file nào.
+   - Repository: không có file nào.
+
+c. Thêm file .gitignore, thêm vào 2 dòng:
+i. file1.txt
+ii. oops/
+   - Working Directory: file2 và .gitignor
+   - Staging: không có file nào.
+   - Repository: không có file nào.
+   
+d. Chạy lệnh: git add .
+   - Working Directory: có file 1, file 3 nhưng ở trạng thái không di chuyển được.
+   - Staging: file2 và .gitignor
+   - Repository: không có file nào.
+
+e. Chạy lệnh: git commit -m"init project"
+   - Working Directory:  có file 1, file 3 nhưng ở trạng thái không di chuyển được.
+   - Staging: không có file nào.
+   - Repository: file2 và .gitignor

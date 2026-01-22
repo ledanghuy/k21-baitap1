@@ -75,7 +75,8 @@
        - >=
 - Toán tử logic:
    - && ( and ): trả về đúng nếu cả 2 vế của mệnh đề đều đúng.
-   - || ( or) : trả về đúng nếu 1 trong 2 vế của mệnh đề đúng.
+   - || ( or) : trả về đúng nếu 1 trong 2 vế của mệnh đề đúng.\
+   - ! : đảo ngược lại giá trị của mệnh đề.
 
 - Toán tử 1 ngôi:
    Ex: let x =5; 

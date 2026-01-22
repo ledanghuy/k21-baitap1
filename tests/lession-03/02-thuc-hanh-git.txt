@@ -1,0 +1,53 @@
+A: Tạo 3 file : file 1, file2, file3 : 
+   - Working Directory: file 1, file2, file3.
+   - Staging: không có file nào.
+   - Repository: không có file nào.
+
+B: git init: 
+   - Working Directory: file 1, file2, file3 (chỉ tạo ra thư mục git).
+   - Staging: không có file nào.
+   - Repository: không có file nào.
+
+C: git commit -m”init project”:
+   - Working Directory:file 1, file2, file3. 
+   - Staging: không có file nào.
+   - Repository: không có file nào.
+
+D: git add file1:
+   - Working Directory: file2, file3.
+   - Staging: file 1.
+   - Repository: không có file nào.
+
+E: git commit -m”add file”:
+   - Working Directory: file2, file3.
+   - Staging: file 1.
+   - Repository: không có file nào.
+
+F: git add ."
+   - Working Directory: không có file nào.
+   - Staging: file 1, file 2, file3.
+   - Repository: không có file nào.
+
+G: git restore --staged file2:
+   - Working Directory: không có file nào.
+   - Staging: file 1,file 2, file3.
+   - Repository: không có file nào.
+
+H: git commit -m”add all files”:
+   - Working Directory: không có file nào.
+   - Staging: file 1,file 2, file3.
+   - Repository: không có file nào.
+
+I: git reset HEAD~1:
+   - Working Directory: không có file nào.
+   - Staging: file 1,file 2, file3.
+   - Repository: không có file nào.
+ 
+
+
+
+
+
+
+
+
