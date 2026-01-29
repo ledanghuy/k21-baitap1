@@ -20,28 +20,28 @@ D: git add file1:
 
 E: git commit -m”add file”:
    - Working Directory: file2, file3.
-   - Staging: file 1.
-   - Repository: không có file nào.
+   - Staging: Không file nào.
+   - Repository: file 1.
 
 F: git add ."
    - Working Directory: không có file nào.
-   - Staging: file 1, file 2, file3.
-   - Repository: không có file nào.
+   - Staging: file 2, file3.
+   - Repository: file 1.
 
 G: git restore --staged file2:
-   - Working Directory: không có file nào.
-   - Staging: file 1,file 2, file3.
-   - Repository: không có file nào.
+   - Working Directory: file 2.
+   - Staging: file3.
+   - Repository: file 1
 
 H: git commit -m”add all files”:
-   - Working Directory: không có file nào.
-   - Staging: file 1,file 2, file3.
-   - Repository: không có file nào.
+   - Working Directory: file 2
+   - Staging: không có file nào.
+   - Repository: file 1, file 3.
 
 I: git reset HEAD~1:
-   - Working Directory: không có file nào.
-   - Staging: file 1,file 2, file3.
-   - Repository: không có file nào.
+   - Working Directory: file 2, file 3.
+   - Staging: không có file nào.
+   - Repository: file 1.
  
 
 
