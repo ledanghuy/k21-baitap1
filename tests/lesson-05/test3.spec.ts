@@ -28,6 +28,8 @@ test('Bài tập số 3:', async ({ page }) => {
         const evenNumbers = arrayToDoList.filter(num => num.sothutu % 2 === 0);
         console.log(evenNumbers);
 
+
+        ///Hiển thị lên trên web.
         for (let key of evenNumbers) {
             await toDoList.fill(key.name);
             await addTask.click();
