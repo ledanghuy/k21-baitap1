@@ -11,7 +11,7 @@ c. Lấy hàng đầu tiên trong tbody: /html/body/div/div[2]/table/tbody/tr[1]
 
 
 2. Sử dụng xpath tương đối, chọn phần tử sau: 
-a. Lấy input có placeholder="Số điện thoại"  : //button[@placeholder='Số điện thoại']
+a. Lấy input có placeholder="Số điện thoại"  : //input[@placeholder='Số điện thoại']
 b. Lấy email của "Trần Thị Bình" (hàng 2, cột 2)  : //tr/td[text()='binh.tran@email.com']
 c. Lấy số điện thoại của "Lê Hoàng Cường" (hàng 3, cột 3):  //tr[3]/td[3] hoặc //tr/td[text()='0923456789']
 d. Lấy button có class="btn-register : //button[@class='btn-register']

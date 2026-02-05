@@ -23,7 +23,7 @@ test('Bài tập số 4:', async ({ page }) => {
     const searchText = page.locator("//input[@id='search']");
     const titleText = page.locator("//input[@id='note-title']");
     const contentText = page.locator("//textarea[@id='note-content']");
-    const addNotebutton = page.locator("//button[@id='add-note']");
+    const addNoteButton = page.locator("//button[@id='add-note']");
 
     const arrayList =
         [
@@ -43,7 +43,7 @@ test('Bài tập số 4:', async ({ page }) => {
     for (let key of arrayList) {
         await titleText.fill(key.Tilte);
         await contentText.fill(key.Content);
-        await addNotebutton.click();
+        await addNoteButton.click();
     }
 
     //Thực hiện search với keyword “một hoặc nhiều”

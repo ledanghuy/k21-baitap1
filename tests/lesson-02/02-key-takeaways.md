@@ -2,7 +2,6 @@
 
 ## Danh Sách Các Mục Trong Bài 2:
 1. Version control system.
-
 2. Git.
    - Môi trường.
    - Cấu hình.
